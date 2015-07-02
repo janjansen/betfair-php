@@ -1,7 +1,7 @@
 {
     "minimum-stability": "dev",
 
-    "name"       : "erlangb/betfair",
+    "name"       : "janjansen/betfair-php",
     "type"       : "library",
     "description": "Betfair API PHP 5.4+ library",
     "keywords"   : ["Betfair", "API", "betting api", "betting", "bet"],
