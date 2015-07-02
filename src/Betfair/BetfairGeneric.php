@@ -31,9 +31,4 @@ class BetfairGeneric extends AbstractBetfair
     ) {
         parent::__construct($betfairClient, $adapter, $paramFactory, $marketFilterFactory);
     }
-
-    public function executeCustomQuery(ParamInterface $param, $method)
-    {
-        return parent::executeCustomQuery($param, $method);
-    }
 }
