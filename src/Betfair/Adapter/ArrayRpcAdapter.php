@@ -14,6 +14,9 @@ class ArrayRpcAdapter implements AdapterInterface
     public function adaptResponse($response)
     {
         $data = json_decode($response, true);
+        if(!isset($data['result'])){
+            throw  new \Exception(json_encode($data));
+        }
         return $data['result'];
     }
 }
